@@ -1,0 +1,33 @@
+{
+  "name": "create-status-action",
+  "version": "1.0.0",
+  "description": "GitHub action to create a commit status",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint index.js",
+    "package": "ncc build index.js -o dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pbrandone/create-status-action"
+  },
+  "keywords": [
+    "GitHub",
+    "Actions",
+    "JavaScript"
+  ],
+  "author": "pbrandone",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pbrandone/create-status-action/issues"
+  },
+  "homepage": "https://github.com/pbrandone/create-status-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.1.1",
+    "@actions/github": "^2.1.1"
+  },
+  "devDependencies": {
+    "@zeit/ncc": "^0.20.5",
+    "eslint": "^6.3.0"
+  }
+}
